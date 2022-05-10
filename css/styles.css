@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap');
+
+/*GENERAL*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #242526;
+    font-family: "Cairo", sans-serif;
+}
+li, a{
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: #1a1b1a;
+}
+html {
+    scroll-behavior: smooth;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*NAV*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    padding-left: 790px; /*PADDING TO LEFT WALL*/
+    height: 50px; /*SIZE OF NAV "BOX"*/
+    background-color: #1a1b1a;
+}
+.nav_links {
+    list-style: none;
+    background-color: #1a1b1a;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px 0px 20px; /*PADDING BETWEEN EACH*/
+    background-color: #1a1b1a;
+    /*border: 1px solid #ddd;*/
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    background-color: #1a1b1a;
+}
+.nav_links li a:hover {
+    color:#73CCA8;
+    border-bottom:4px solid #73CCA8
+}
+
+/* ALL TABS */
+#home,#projects,#about
+{
+    font-weight: 100;
+    height:1200px;
+    color: white;
+}
+#home #home_name, #projects #projects_name, #about #about_name
+{
+    margin-top:125px;
+    text-align: center;
+    font-size:100px;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    color: #9fe6c8;
+}
+
+
+
+
+/* HOME */
+#home
+{
+    background-color: #242526;
+}
+#home #home_name_desctop
+{
+    text-align: center;
+    font-weight: 700;
+    font-size:20px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color: #73CCA8;
+}
+#home #pfp
+{
+    border-radius: 50%;
+    
+}
+#home #home_name_descbot
+{
+    text-align: center;
+    font-weight: 300;
+    font-size:20px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #73CCA8;
+}
+
+
+
+
+/* PROJECTS */
+#projects
+{
+    background-color: #242526;
+}
+
+
+/* ABOUT */
+#about
+{
+    background-color: #242526;
+}
+
+/* BOTTOM */
+#bottom
+{
+    height:300px;
+    background-color: #1a1b1a;
+}
