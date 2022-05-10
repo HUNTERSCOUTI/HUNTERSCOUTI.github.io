@@ -31,13 +31,15 @@ nav {
     position: sticky;
     top: 0px;
     align-items: center;
-    padding-left: 790px; /*PADDING TO LEFT WALL*/
     height: 50px; /*SIZE OF NAV "BOX"*/
     background-color: #1a1b1a;
 }
 .nav_links {
     list-style: none;
     background-color: #1a1b1a;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 .nav_links li {
     display: inline-block;
@@ -54,6 +56,8 @@ nav {
     border-bottom:4px solid #73CCA8
 }
 
+
+
 /* ALL TABS */
 #home,#projects,#about
 {
@@ -69,8 +73,10 @@ nav {
     font-weight: lighter;
     letter-spacing: 15px;
     color: #9fe6c8;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
-
 
 
 
@@ -88,6 +94,9 @@ nav {
     line-height: 1.2;
     margin-top: -15px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     color: #73CCA8;
 }
 #home #pfp
@@ -104,6 +113,9 @@ nav {
     line-height: 1.2;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     color: #73CCA8;
 }
 
